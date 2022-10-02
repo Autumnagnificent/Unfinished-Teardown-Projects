@@ -1,0 +1,42 @@
+<prefab version="0.9.2">
+	<group id_="324947328" open_="true" name="instance=MOD/prop/vehicle/heavymachinery/forklift_big.xml" pos="7.00001 0.1 1.99999" rot="0.0 0.0 0.0">
+		<vehicle id_="1998249088" open_="true" tags="forklift reversebeep" pos="0.0 0.0 -0.2" rot="0.0 0.0 0.0" driven="false" sound="forklift 0.8" spring="2" topspeed="15" acceleration="1" strength="7" antispin="0" difflock="0.5" friction="1.5">
+			<body id_="1452432000" open_="true" pos="-0.05 0.4 0.05" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="18154580" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="5" strength="6" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="body">
+					<light id_="1806937856" pos="1.3 2.35 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="15" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<light id_="1586330112" pos="-1.2 2.35 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="15" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<light id_="1029109056" pos="1.35 1.85 -2.2" rot="0.0 -180.0 0.0" type="area" color="1 1 1" scale="2" size=".1 .1" unshadowed="0.2"/>
+					<light id_="1475370880" pos="-1.25 1.85 -2.2" rot="0.0 180.0 0.0" type="area" color="1 1 1" scale="2" size=".1 .1" unshadowed="0.2"/>
+					<location id_="1293890688" tags="exhaust=2" pos="0.05 2.1 -0.55" rot="-90.0 180.0 0.0"/>
+					<location id_="538673280" tags="vital" pos="0.05 1.2 -1.85" rot="0.0 0.0 0.0"/>
+					<location id_="648846016" tags="player" pos="0.05 2.7 0.75" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="1796451456" open_="true" name="bl" pos="-1.25 0.2 2.05" steer="-1" travel="-0.1 0.1">
+					<vox id_="496268864" pos="-0.1 -0.7 0.0" rot="0.0 180.0 0.0" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="1850587392" open_="true" name="br" pos="1.25 0.2 2.05" drive="0" steer="-1" travel="-0.1 0.1">
+					<vox id_="471494752" pos="0.2 -0.7 0.0" rot="0.0 180.0 0.0" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1757651712" open_="true" name="fl" pos="-1.05 0.2 -1.75" rot="0.0 0.0 0.0" drive="1" steer="0" travel="-0.1 0.1">
+					<vox id_="516193024" pos="-0.1 -0.7 0.0" rot="0.0 180.0 0.0" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="238958848" open_="true" name="fr" pos="1.05 0.2 -1.75" drive="1" steer="0" travel="-0.1 0.1">
+					<vox id_="453012480" pos="0.2 -0.7 0.0" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+			<body id_="596020736" open_="true" pos="-0.1 1.3 -2.7" dynamic="true">
+				<vox id_="1072562112" open_="true" pos="0.1 -1.1 0.4" rot="0.0 -180.0 0.0" density="5" strength="10" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="lift">
+					<joint id_="502626272" pos="0.9 1.0 -0.1" rot="-90.0 -90.0 0.0" type="prismatic" limits="0 2.5"/>
+					<joint id_="922868736" pos="-0.8 1.0 -0.1" rot="-90.0 -90.0 0.0" type="prismatic" limits="-0 2.5"/>
+				</vox>
+			</body>
+			<body id_="369711136" open_="true" pos="-0.1 1.3 -2.7" dynamic="true">
+				<vox id_="1106052992" pos="0.1 -0.5 -0.8" rot="0.0 -180.0 0.0" density="5" strength="20" file="MOD/prop/vehicle/heavymachinery/forklift_big.vox" object="fork">
+					<joint id_="2132475008" pos="0.9 0.7 -1.1" rot="-90.0 -90.0 0.0" type="prismatic" limits="-0.9 2.5"/>
+					<joint id_="1736678912" pos="-0.8 0.7 -1.1" rot="-90.0 270.0 0.0" type="prismatic" limits="-0.9 2.5"/>
+				</vox>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

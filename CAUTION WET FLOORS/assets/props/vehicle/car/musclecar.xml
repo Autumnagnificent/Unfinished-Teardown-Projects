@@ -1,0 +1,32 @@
+<prefab version="0.7.0">
+	<group id_="500660064" open_="true" name="instance=MOD/prop/vehicle/car/musclecar.xml" pos="-1.0 1.5 2.0" rot="0.0 0.0 0.0">
+		<vehicle id_="1606975232" open_="true" pos="0.1 0.0 0.2" rot="0.0 0.0 0.0" driven="false" sound="musclecar" spring="0.8" damping="0.6" topspeed="90" acceleration="8" strength="8" antiroll="0.0" difflock="0.5" steerassist="0.4" friction="1.5">
+			<body id_="1334590976" open_="true" pos="-0.1 0.45 -0.75" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="922278912" open_="true" pos="0.05 -0.15 0.55" rot="0.0 180.0 0.0" density="2" strength="3" file="MOD/prop/vehicle/car/muscle_car.vox" object="body">
+					<location id_="972482496" tags="exhaust=2" pos="0.5 0.1 -2.5" rot="0.0 180.0 0.0"/>
+					<light id_="752530304" pos="0.5 0.55 -2.5" rot="180.0 0.0 180.0" type="area" color="1 .1 .1" size="0.6 0.1" unshadowed="0.3" glare=".2"/>
+					<light id_="671785024" pos="-0.4 0.55 -2.5" rot="180.0 0.0 180.0" type="area" color="1 .1 .1" size="0.6 0.1" unshadowed="0.3" glare=".2"/>
+					<light id_="696755712" pos="0.85 0.5 -2.5" rot="180.0 0.0 180.0" type="area" size="0.1 0.2" unshadowed="0.3"/>
+					<light id_="741847232" pos="-0.75 0.5 -2.5" rot="180.0 0.0 180.0" type="area" size="0.1 0.2" unshadowed="0.3"/>
+					<light id_="1566733696" pos="-0.75 0.5 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.3" glare=".3"/>
+					<light id_="441870688" pos="0.85 0.5 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.3" glare=".3"/>
+					<location id_="1984878848" tags="vital" pos="0.05 0.5 1.7"/>
+					<location id_="1154159360" tags="player" pos="0.45 1.0 -0.05" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="1566012800" open_="true" name="bl" pos="-0.75 -0.1 1.9" drive="1" travel="-0.1 0.2">
+					<vox id_="1562473600" pos="-0.1 -0.35 -0.05" rot="0.0 180.0 0.0" file="MOD/prop/vehicle/car/muscle_car.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="234764288" open_="true" name="br" pos="0.7 -0.1 1.9" drive="1" travel="-0.1 0.2">
+					<vox id_="1038415744" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/car/muscle_car.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="757380224" open_="true" name="fl" pos="-0.75 -0.1 -1.1" steer="1" travel="-0.1 0.2">
+					<vox id_="1329282304" pos="-0.1 -0.35 -0.05" rot="0.0 180.0 0.0" file="MOD/prop/vehicle/car/muscle_car.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="325602720" open_="true" name="fr" pos="0.75 -0.1 -1.1" steer="1" travel="-0.1 0.2">
+					<vox id_="432039680" pos="0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/car/muscle_car.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

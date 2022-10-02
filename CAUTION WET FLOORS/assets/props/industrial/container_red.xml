@@ -1,0 +1,21 @@
+<prefab version="0.9.2">
+	<group id_="405758144" name="instance=MOD/prop/industrial/container_red.xml" pos="10.2 0.0 -2.39998" rot="0.0 -180.0 0.0">
+		<body id_="712092096" pos="0.0 0.7 -0.1" rot="0.0 90.0 0.0" dynamic="true">
+			<vox id_="684892992" pos="0.0 -0.6 0.1" rot="0.0 0.0 0.0" density="1" strength="2" file="MOD/prop/industrial/container_red.vox" object="body"/>
+			<vox id_="1441093504" pos="0.0 -0.6 -2.9" rot="0.0 0.0 0.0" density="1" strength="2" file="MOD/prop/industrial/container_red.vox" object="frame"/>
+		</body>
+		<body id_="392060288" pos="-3.0 1.4 0.5" rot="0.0 90.0 0.0" dynamic="true">
+			<vox id_="1273180032" open_="true" pos="1.1 -1.2 0.0" rot="0.0 0.0 0.0" density="1" strength="2" file="MOD/prop/industrial/container_red.vox" object="door_left">
+				<joint id_="911268160" pos="0.6 0.1 0.0" rot="0.0 0.0 0.0" rotstrength="0"/>
+				<joint id_="96999200" pos="0.6 2.3 0.0" rot="0.0 0.0 0.0" rotstrength="0"/>
+			</vox>
+		</body>
+		<body id_="923327488" pos="1.7 -0.7 -0.6" rot="0.0 90.0 0.0" dynamic="true">
+			<vox id_="545030656" open_="true" pos="-1.1 0.9 -4.7" rot="0.0 0.0 0.0" density="1" strength="2" file="MOD/prop/industrial/container_red.vox" object="door_right">
+				<joint id_="401956832" pos="-0.5 0.1 0.0" rot="0.0 0.0 0.0" rotstrength="0"/>
+				<joint id_="1405177600" pos="-0.5 2.3 0.0" rot="0.0 0.0 0.0" rotstrength="0"/>
+			</vox>
+		</body>
+	</group>
+</prefab>
+

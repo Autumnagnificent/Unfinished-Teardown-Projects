@@ -1,0 +1,14 @@
+<prefab version="1.1.0">
+	<group name="Sign" pos="0.15 2.0 -1.275" rot="0.0 0.0 0.0">
+		<body name="Side" pos="0.0 0.0 0.315" rot="-10.0 0.0 0.0" dynamic="true">
+			<vox tags="unbreakable" pos="-0.05 0.0 0.15" file="MOD/assets/SignBase.vox"/>
+			<vox pos="-0.0 0.0 0.075" file="MOD/assets/SignVisual.vox" scale="0.125"/>
+		</body>
+		<body name="Side" pos="0.0 0.0 -0.3" rot="-10.0 180.0 0.0" dynamic="true">
+			<vox tags="unbreakable" pos="-0.05 0.0 0.15" file="MOD/assets/SignBase.vox"/>
+			<vox pos="-0.0 0.0 0.075" file="MOD/assets/SignVisual.vox" scale="0.125"/>
+		</body>
+		<joint pos="0.0 1.467 0.007" rot="0.0 90.0 -90.0" type="hinge" limits="0 100"/>
+	</group>
+</prefab>
+

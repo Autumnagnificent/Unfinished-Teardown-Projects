@@ -1,0 +1,8 @@
+<prefab version="0.9.3">
+	<group id_="315444032" open_="true" name="instance=MOD/prop/explosive/nitroglycerin.xml" pos="3.2 0.1 -0.0" rot="0.0 0.0 0.0">
+		<vox id_="1210589312" open_="true" tags="explosive=4" pos="0.0 0.0 0.1" rot="0.0 0.0 0.0" strength="100" prop="true" file="MOD/prop/explosive/nitroglycerin.vox">
+			<light id_="1442207744" pos="0.0 0.9 -0.1" color="1 .6 .1" scale="1" size="0.9"/>
+		</vox>
+	</group>
+</prefab>
+

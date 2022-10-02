@@ -1,0 +1,13 @@
+<prefab version="0.9.2">
+	<group id_="304695456" open_="true" name="industrial_cabinet" pos="-6.8 2.1 4.6" rot="0.0 -180.0 0.0">
+		<vox id_="1286484608" open_="true" pos="0.1 0.1 0.1" rot="0.0 90.0 0.0" file="MOD/prop/industrial/industrial.vox" object="cabinet">
+			<vox id_="990243840" open_="true" pos="0.4 0.1 -0.5" rot="0.0 0.0 0.0" prop="true" file="MOD/prop/industrial/industrial.vox" object="cabinet_door_l">
+				<joint id_="632133312" pos="0.4 1.0 0.1" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.01" rotspring="0" limits="-130 0"/>
+			</vox>
+			<vox id_="1129778560" open_="true" pos="-0.4 0.1 -0.5" rot="0.0 0.0 0.0" prop="true" file="MOD/prop/industrial/industrial.vox" object="cabinet_door_r">
+				<joint id_="359486912" pos="-0.3 1.0 0.1" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.01" rotspring="0" limits="0 130"/>
+			</vox>
+		</vox>
+	</group>
+</prefab>
+

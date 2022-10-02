@@ -1,0 +1,8 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/assets/TutorialCar.xml" pos="0.0 0.8 -42.0" rot="0.0 0.0 0.0">
+		<script pos="0.0 0.0 0.0" file="MOD/objectScripts/SwapSpawnDelete.lua" param0="Proximity=3.5" param1="Invert=true" param2="Sound=false" param3="Sight=false">
+			<instance pos="0.0 0.0 0.0" file="MOD/prop/vehicle/car/taskmaster-4wd.xml"/>
+		</script>
+	</group>
+</prefab>
+

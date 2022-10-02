@@ -1,0 +1,47 @@
+<scene version="1.1.0" shadowVolume="128 20 128">
+	<group name="Scripts">
+		<script file="main.lua"/>
+		<script file="sandbox.lua"/>
+		<script file="MOD/Index.lua"/>
+	</group>
+	<environment template="winter_day"/>
+	<group name="Stage">
+		<group name="Floor" pos="0.0 0.0 0.0">
+			<voxbox pos="-64.0 0.0 -32.0" rot="0.0 0.0 0.0" texture="12 0.75" size="1200 20 640" brush="MOD/vox/Grid/Dark.vox"/>
+			<voxbox pos="-64.0 2.0 -34.0" rot="0.0 0.0 0.0" texture="12 0.75" size="1220 20 60" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="-64.0 2.0 -28.0" rot="0.0 0.0 0.0" texture="12 0.75" size="380 20 40" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="-64.0 2.0 24.0" rot="0.0 0.0 0.0" texture="12 0.75" size="380 20 40" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="-64.0 2.0 28.0" rot="0.0 0.0 0.0" texture="12 0.75" size="1220 20 80" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="52.0 2.0 -28.0" rot="0.0 0.0 0.0" texture="12 0.75" size="60 20 560" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="46.0 2.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="60 20 80" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="46.0 2.0 -28.0" rot="0.0 0.0 0.0" texture="12 0.75" size="60 20 40" brush="MOD/vox/Grid/Mint.vox" offset="20"/>
+			<voxbox pos="46.0 2.0 24.0" rot="0.0 0.0 0.0" texture="12 0.75" size="60 20 40" brush="MOD/vox/Grid/Mint.vox" offset="20"/>
+			<voxbox pos="46.0 2.0 -4.0" rot="0.0 0.0 0.0" texture="12 0.75" size="60 20 80" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="46.0 2.0 10.0" rot="0.0 0.0 0.0" texture="12 0.75" size="60 20 80" brush="MOD/vox/Grid/Mint.vox"/>
+			<voxbox pos="-64.0 2.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="380 20 360" brush="MOD/vox/Grid/Mint.vox"/>
+		</group>
+		<group name="Trackers" pos="-1.5 0.0 0.0">
+			<location name="CameraLocation" tags="CameraLocation" pos="1.5 55.0 0.0" rot="-90.0 0.0 0.0"/>
+			<location tags="CarSpawn" pos="-59.5 2.0 -21.0" rot="0.0 -90.0 0.0"/>
+			<location tags="CarSpawn" pos="-59.5 2.0 21.0" rot="0.0 -90.0 0.0"/>
+			<trigger tags="CarControl" pos="14.5 0.0 0.0" type="box" size="90 5 70"/>
+		</group>
+		<group name="Paint" pos="12.0 0.0 0.0">
+			<voxbox pos="-20.2 0.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="-12.2 0.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="-4.2 0.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="3.8 0.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="11.8 0.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="19.8 0.0 -18.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="-20.2 0.0 -9.8" rot="0.0 90.0 0.0" texture="12 0.75" size="4 20 404" color="0.89 1.0 0.0"/>
+			<voxbox pos="-20.2 0.0 2.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="-12.2 0.0 2.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="-4.2 0.0 2.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="3.8 0.0 2.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="11.8 0.0 2.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="19.8 0.0 2.0" rot="0.0 0.0 0.0" texture="12 0.75" size="4 20 160" color="0.89 1.0 0.0"/>
+			<voxbox pos="-20.2 0.0 10.2" rot="0.0 90.0 0.0" texture="12 0.75" size="4 20 404" color="0.89 1.0 0.0"/>
+		</group>
+	</group>
+</scene>
+

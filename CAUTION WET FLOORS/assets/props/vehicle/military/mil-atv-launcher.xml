@@ -1,0 +1,55 @@
+<prefab version="0.9.3">
+	<group id_="1660062720" open_="true" name="instance=MOD/prop/vehicle/military/mil-atv-launcher.xml" pos="38.39999 0.1 -0.3" rot="0.0 0.0 0.0">
+		<group id_="1036515072" open_="true" pos="0.0 0.0 0.0" prop0="texture=8 0.66">
+			<script id_="1164711296" open_="true" pos="0.0 -0.1 0.0" file="mountedmissile.lua">
+				<vehicle id_="869715776" open_="true" tags="car tank" pos="0.0 -0.1 0.1" sound="military 1.5" spring="0.7" topspeed="110" acceleration="0.6" strength="2" antispin="0.7" antiroll="0.36" difflock="0.75" steerassist="0.3">
+					<body id_="1143935104" open_="true" tags="body" pos="0.05 1.35 -0.1" dynamic="true">
+						<vox id_="1315060096" open_="true" pos="-0.05 -0.85 0.1" file="MOD/prop/vehicle/military/mil-atv.vox" object="body">
+							<group id_="1662160000" open_="true" name="lights">
+								<light id_="1374111616" name="reverse right" pos="0.75 0.6 2.1" rot="0.0 0.0 0.0" type="area" size="0.3 0.2" unshadowed="0.3"/>
+								<light id_="1472225024" name="reverse left" pos="-0.65 0.6 2.1" rot="0.0 0.0 0.0" type="area" size="0.3 0.2" unshadowed="0.3"/>
+								<light id_="2034099456" name="brake right" pos="1.05 0.4 2.1" rot="0.0 0.0 0.0" type="area" color="1 .1 .1" size="0.1 0.2" unshadowed="0.3" glare="0.2"/>
+								<light id_="41683440" name="brake left" pos="-0.95 0.4 2.1" rot="0.0 0.0 0.0" type="area" color="1 .1 .1" size="0.1 0.2" unshadowed="0.3" glare="0.2"/>
+								<light id_="885707584" name="headlight right" pos="0.9 0.8 -2.3" rot="0.0 180.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+								<light id_="603557888" name="headlight left" pos="-0.8 0.8 -2.3" rot="0.0 180.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							</group>
+							<group id_="1015149056" open_="true" name="wheels">
+								<wheel id_="1353073280" open_="true" name="front right" pos="1.1 0.15 -1.25" drive="0.6" steer="1">
+									<vox id_="715041408" pos="-0.2 -0.45 0.05" file="MOD/prop/vehicle/military/mil-atv.vox" object="wheel_fr"/>
+								</wheel>
+								<wheel id_="1473339136" open_="true" name="front left" pos="-0.7 0.15 -1.25" drive="0.6" steer="1">
+									<vox id_="681484928" pos="-0.2 -0.45 0.05" file="MOD/prop/vehicle/military/mil-atv.vox" object="wheel_fl"/>
+								</wheel>
+								<wheel id_="2082730112" open_="true" name="back right" pos="1.1 0.15 1.15" drive="0.4">
+									<vox id_="684303168" pos="-0.2 -0.45 0.05" file="MOD/prop/vehicle/military/mil-atv.vox" object="wheel_br"/>
+								</wheel>
+								<wheel id_="1374373760" open_="true" name="back left" pos="-0.7 0.15 1.15" drive="0.4">
+									<vox id_="113253120" pos="-0.2 -0.45 0.05" file="MOD/prop/vehicle/military/mil-atv.vox" object="wheel_bl"/>
+								</wheel>
+							</group>
+							<group id_="477983232" open_="true" name="locations">
+								<location id_="1297167616" name="vital" tags="vital" pos="0.05 0.95 -1.8" rot="180.0 0.0 180.0"/>
+								<location id_="2089546240" name="player" tags="player" pos="-0.35 1.65 -1.1" rot="0.0 0.0 0.0"/>
+								<location id_="415982368" name="camera" tags="camera" pos="-0.35 2.15 -1.1" rot="0.0 0.0 0.0"/>
+								<location id_="225064352" name="exhaust" tags="exhaust" pos="-0.2 0.25 1.6" rot="20.0 0.0 0.0"/>
+							</group>
+						</vox>
+					</body>
+				</vehicle>
+				<body id_="964552192" open_="true" name="gun" tags="gun" pos="0.05 2.5 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+					<joint id_="1122765696" pos="-0.0 0.0 0.1" rot="-95.0 0.0 0.0" size="0.2" rotstrength="200" rotspring="0" collide="false"/>
+					<vox id_="167585776" pos="-0.05 0.0 0.05" density="0.1" file="MOD/prop/vehicle/military/mil-atv.vox" object="launcher"/>
+					<vox id_="1751556480" tags="m" pos="0.25 0.3 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="2056120832" tags="m" pos="0.05 0.3 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="166602688" tags="m" pos="-0.15 0.3 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="2104227200" tags="m" pos="-0.35 0.3 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="645110208" tags="m" pos="-0.35 0.5 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="2067524864" tags="m" pos="-0.15 0.5 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="1873591936" tags="m" pos="0.05 0.5 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+					<vox id_="457272576" tags="m" pos="0.25 0.5 -0.45" file="MOD/prop/vehicle/military/mil-atv.vox" object="missile"/>
+				</body>
+			</script>
+		</group>
+	</group>
+</prefab>
+

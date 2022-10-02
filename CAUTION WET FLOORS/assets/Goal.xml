@@ -1,0 +1,13 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/assets/Goal.xml" pos="0.0 0.3 0.0" rot="0.0 0.0 0.0">
+		<script pos="0.0 -0.1 0.0" file="MOD/objectScripts/GoalObject.lua">
+			<body tags="nocull" pos="0.0 0.1 0.0" dynamic="true">
+				<voxbox pos="-0.1 0.1 -0.1" rot="0.0 0.0 0.0" size="2 2 2" color="0.0 0.0 0.0" pbr="0 0 0 32"/>
+				<voxbox pos="-0.3 -0.1 -0.1" rot="0.0 0.0 0.0" size="2 2 2" color="0.92 1.0 0.0" pbr="0 0 0 32"/>
+				<voxbox pos="-0.1 -0.3 -0.1" rot="0.0 0.0 0.0" size="2 2 2" color="0.0 0.93 1.0" pbr="0 0 0 32"/>
+				<voxbox pos="0.1 -0.1 -0.1" rot="0.0 0.0 0.0" size="2 2 2" color="1.0 0.0 0.65" pbr="0 0 0 32"/>
+			</body>
+		</script>
+	</group>
+</prefab>
+

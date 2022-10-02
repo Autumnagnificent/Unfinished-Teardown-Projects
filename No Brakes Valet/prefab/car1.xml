@@ -1,0 +1,8 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/prefab/car1.xml" pos="-4.0 2.0 -14.1" rot="0.0 0.0 0.0">
+		<body pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" dynamic="true">
+			<vox strength="0.01" file="MOD/vox/car.vox"/>
+		</body>
+	</group>
+</prefab>
+

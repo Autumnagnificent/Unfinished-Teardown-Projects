@@ -1,0 +1,8 @@
+<prefab version="1.1.0">
+	<group name="Wall 4x3x1" pos="0.0 0.0 0.0">
+		<body pos="0.0 0.0 0.0" dynamic="false">
+			<voxbox name="Wall" pos="-2.0 0.0 -0.5" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="40 30 10" brush="MOD/assets/Grid/Plain.vox"/>
+		</body>
+	</group>
+</prefab>
+

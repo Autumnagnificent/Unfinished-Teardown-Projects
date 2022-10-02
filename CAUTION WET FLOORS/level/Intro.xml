@@ -1,0 +1,24 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/level/Intro.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+		<location tags="Player" pos="0.0 2.0 23.0"/>
+		<voxbox name="Floor" pos="-5.0 0.0 -23.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="100 20 520" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Floor" pos="-5.0 5.0 -23.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="100 20 520" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="-5.0 2.0 -14.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="30 30 420" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="-5.0 2.0 27.3" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="100 30 10" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="-5.0 2.0 -23.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="100 30 10" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="-3.0 2.0 10.3" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="10 30 10" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="2.0 2.0 -14.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="30 30 420" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="4.0 2.0 -22.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="10 30 80" brush="MOD/assets/Grid/Plain.vox"/>
+		<voxbox name="Wall" pos="-5.0 2.0 -22.7" rot="0.0 0.0 0.0" blendtexture="1 0.05" size="10 30 80" brush="MOD/assets/Grid/Plain.vox"/>
+		<light tags="sight" pos="0.0 5.0 -18.7" rot="90.0 0.0 0.0" type="area" scale="16" size="8 8"/>
+		<script pos="0.0 2.5 -18.7" file="MOD/objectScripts/SwapSpawnDelete.lua" param0="Spawn=MOD/assets/Sign.xml" param1="Proximity=3">
+			<instance pos="0.0 0.3 0.0" rot="0.0 0.0 0.0" file="MOD/assets/Goal.xml"/>
+		</script>
+		<script pos="0.0 2.0 -14.2" file="MOD/objectScripts/SwapSpawnDelete.lua" param0="Spawn=MOD/assets/Wall 4x3x1.xml" param1="Invert=true" param2="Sound=false">
+			<trigger tags="Sight" type="box" size="4 3 1"/>
+			<trigger tags="Camera" pos="0.0 0.0 -4.8" type="box" size="8 3 7.5"/>
+			<location tags="Spawn"/>
+		</script>
+	</group>
+</prefab>
+

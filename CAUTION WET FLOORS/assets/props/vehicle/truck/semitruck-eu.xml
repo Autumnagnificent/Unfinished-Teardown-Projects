@@ -1,0 +1,51 @@
+<prefab version="0.9.2">
+	<group id_="933420672" open_="true" name="instance=MOD/prop/vehicle/truck/semitruck-eu.xml" pos="3.1 0.0 -5.2" rot="0.0 0.0 0.0">
+		<vehicle id_="353457216" open_="true" tags="reversebeep" rot="0.0 0.0 0.0" driven="false" sound="semitruck2" spring="0.9" damping="0.7" topspeed="70" acceleration="3" strength="5" antispin="1" antiroll="0.6" difflock="0.5" steerassist=".5">
+			<body id_="719235968" open_="true" pos="0.0 0.55 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="1455315712" open_="true" pos="0.05 -0.25 0.4" rot="180.0 0.0 180.0" density="2" strength="2" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="body">
+					<light id_="461204992" pos="-0.8 0.6 2.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<light id_="60034640" pos="0.9 0.6 2.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<location id_="788511744" tags="player" pos="0.45 2.35 1.7" rot="0.0 0.0 0.0"/>
+				</vox>
+				<group id_="972416960" open_="true" pos="0.15 0.45 -0.4">
+					<wheel id_="1439848320" open_="true" name="br2" pos="0.2 -0.55 2.85" drive="1" travel="-0.1 0.1">
+						<vox id_="1685361152" pos="0.4 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="451832768" open_="true" name="bl1" pos="-0.5 -0.55 2.85" drive="1" travel="-0.1 0.1">
+						<vox id_="1403801216" pos="-0.3 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="342839744" open_="true" name="fl" pos="-0.9 -0.55 -0.55" steer="1" travel="-0.1 0.1">
+						<vox id_="1296053504" pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="1590262528" open_="true" name="fr" pos="0.6 -0.55 -0.55" rot="0.0 0.0 0.0" steer="1" travel="-0.1 0.1">
+						<vox id_="1140133888" pos="0.2 -0.45 -0.05" rot="0 180 0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_fr"/>
+					</wheel>
+				</group>
+			</body>
+			<location id_="776386816" tags="vital" pos="0.0 1.2 -1.95" rot="-90.0 0.0 0.0"/>
+			<location id_="815776384" tags="camera" pos="0.0 2.0 -0.4" rot="-90.0 0.0 0.0"/>
+			<location id_="619418560" tags="exhaust=2" pos="-1.15 0.4 0.2" rot="0.0 -30.0 0.0"/>
+			<location id_="1154421504" tags="exhaust=2" pos="1.15 0.4 0.2" rot="0.0 30.0 0.0"/>
+			<body id_="1475370880" open_="true" pos="0.05 0.85 5.8" dynamic="true">
+				<vox id_="1230710144" open_="true" pos="0.0 -0.55 0.0" rot="0 180 0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="trailer">
+					<joint id_="1730780288" pos="0.05 0.7 4.2" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0" rotspring="0" collide="false" limits="-100 100"/>
+					<light id_="455437472" pos="0.85 0.5 -5.6" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.2" unshadowed="0.2" glare="0.2"/>
+					<light id_="1695126528" pos="-0.75 0.5 -5.6" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.2" unshadowed="0.2" glare="0.2"/>
+				</vox>
+				<wheel id_="1128336640" open_="true" pos="-0.4 -0.4 2.35" travel="-0.1 0.1">
+					<vox id_="727756160" pos="-0.3 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="1727437824" open_="true" pos="-0.4 -0.4 3.55" travel="-0.1 0.1">
+					<vox id_="1556378368" pos="-0.3 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="119479424" open_="true" pos="0.3 -0.4 3.45" travel="-0.1 0.1">
+					<vox id_="868667136" pos="0.4 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1681756416" open_="true" pos="0.3 -0.4 2.35" rot="0.0 0.0 0.0" travel="-0.1 0.1">
+					<vox id_="1779017728" pos="0.4 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prop/vehicle/truck/semitruck-eu.vox" object="wheel_br"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

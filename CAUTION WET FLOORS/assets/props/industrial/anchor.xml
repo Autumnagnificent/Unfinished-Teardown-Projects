@@ -1,0 +1,6 @@
+<prefab version="0.9.2">
+	<group id_="1742577536" open_="true" name="instance=MOD/prop/industrial/anchor.xml" pos="-16.2 0.0 0.1" rot="0.0 0.0 0.0">
+		<vox id_="652385152" pos="-0.1 0.1 0.0" rot="0.0 270.0 0.0" prop="true" file="MOD/prop/industrial/small_anchor.vox"/>
+	</group>
+</prefab>
+
